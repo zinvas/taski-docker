@@ -4,6 +4,8 @@ from rest_framework import routers
 
 from api import views
 
+b = 'poop'
+
 router = routers.DefaultRouter()
 router.register('tasks', views.TaskView, 'task')
 
